@@ -15,7 +15,7 @@ body{
 	margin: 0;
     padding: 0;
     font-family: "microsoft yahei";
-	background-color: #222222;
+	background-color: #000000;
 	/* background-image: url(149159-minimalism-digital_art-humor-simple_background-orange_fruit.jpg); */
 	/* background-image: url(246.jpg); */
 	/* background-image: url(400px-TM_1.jpg); */
@@ -34,7 +34,7 @@ body{
      width:30%;
      font-size: 50px;
      font-weight: bold;
-     color: #000;
+     color: #fff;
      float: left;
      position: absolute;
  }
@@ -42,7 +42,7 @@ body{
      width: 50%;
      float:right;
      /* background: #fff; */
-     color: #000;
+     color: #fff;
      padding:10px;
      position: relative;
      margin-top:16px;
