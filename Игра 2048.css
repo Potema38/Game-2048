@@ -1,0 +1,253 @@
+html{
+    height: 100%;
+}
+
+p{
+    color: black;
+    font-family: "microsoft yahei";
+    font-weight: bold;
+    left: -10px;
+    
+}
+
+body{
+    height: 100%;
+	margin: 0;
+    padding: 0;
+    font-family: "microsoft yahei";
+	background-image: url(149159-minimalism-digital_art-humor-simple_background-orange_fruit.jpg);
+	/* background-image: url(246.jpg); */
+	/* background-image: url(400px-TM_1.jpg); */
+	/* background-size: 50%; */
+	background-position: center;
+	background-repeat: no-repeat;
+}
+ .container{
+     margin:auto;
+     width: 452px;
+     height: 100%;
+     position: relative;
+ }
+ 
+ .logo{
+     width:30%;
+     font-size: 50px;
+     font-weight: bold;
+     color: #000;
+     float: left;
+     position: absolute;
+ }
+ .scoreBar{
+     width: 50%;
+     float:right;
+     /* background: #fff; */
+     color: #000;
+     padding:10px;
+     position: relative;
+     margin-top:16px;
+ }
+
+ #score{
+     font-size: 30px;
+ }
+ 
+ #addScore{
+     position: absolute;
+     bottom: 0px;
+     font-size: 30px;
+     color: red;
+     opacity: .8;
+     top:4px;
+     right: 0;
+ }
+#addScore.show{
+    opacity: .8;
+    transition:all .5s ease; 
+
+}
+#addScore.hide{
+    opacity: 0;
+    transition:all .5s ease; 
+}
+
+#stage{
+    /* background: #bddaaf; */
+    position: absolute;
+    width: 452px;
+    height: 452px;
+    top:50%;
+    left:0;
+    margin-top: -200px;
+    /* border: 1px solid #eee; */
+    z-index: 1;
+}
+
+#undo{
+    position: relative;
+    z-index: 990;
+}
+
+.cover{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    opacity: 0.1;
+}
+
+.row0{
+    top:10px;
+    transition:all .2s ease;    
+}
+.row1{
+    top:120px;
+    transition:all .2s ease;    
+}
+.row2{
+    top:230px;
+    transition:all .2s ease;   
+}
+.row3{
+    top:340px;
+    transition:all .2s ease;   
+}
+
+.cell0{
+    left:10px;
+    transition:all .2s ease;  
+}
+.cell1{
+    left:120px;
+    transition:all .2s ease;   
+}
+.cell2{
+    left:230px;
+    transition:all .2s ease;
+}
+.cell3{
+    left:340px;
+    transition:all .2s ease;   
+}
+
+span{
+    display: block;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    text-align: center;
+    line-height: 90px;
+    /* background: #000; */
+    font-size: 43px;
+}
+
+.num2{
+	border-radius: 19px;
+	border: 5px solid #fff;
+    background: #fff;
+    color:#0000ff;
+    font-size: 100px;
+    transition:all .2s ease;    
+    animation: myfirst .5s;
+    
+}
+
+.num4{
+	border-radius: 19px;
+	border: 5px solid #fff;
+    background: #fff;
+    color: #7700d1;
+    font-size: 100px;
+    transition:all .2s ease;    
+    animation: myfirst .5s;
+   
+}
+
+.num8{
+	border-radius: 19px;
+	border: 5px solid #fff;
+    background: #fff;
+    color:#9400af;
+    font-size: 100px;
+    transition:all .2s ease;   
+    animation: myfirst .5s;
+}
+
+.num16{
+	border-radius: 19px;
+	border: 5px solid #fff;
+    background: #fff;
+    color:#a70099;
+    font-size: 80px;
+    transition:all .2s ease;   
+    animation: myfirst .5s;
+}
+
+.num32{
+	border-radius: 19px;
+	border: 5px solid #fff;
+    background: #fff;
+    color: #b70088;
+    font-size: 80px;
+    transition:all .2s ease; 
+}
+
+.num64{
+    background: #fff;
+    color: #c50079;
+    font-size: 80px;
+    transition:all .2s ease;
+	border: 5px solid #fff;
+	border-radius: 19px;	
+}
+
+.num128{
+    border-radius: 13px;
+	background: #fff;
+    color: #d2006b;
+    font-size: 52px;
+    transition:all .2s ease;   
+}
+
+.num256{
+    background: #fff;
+    color:#df005b;
+    font-size: 52px;
+    transition:all .2s ease;  
+	border-radius: 13px;	
+}
+
+.num512{
+    background: #fff;
+    color: #ec0048;
+    font-size: 52px;
+    transition:all .2s ease;  
+	border-radius: 13px;
+}
+
+.num1024{
+	border-radius: 13px;
+    background: #fff;
+    color: #f9002e;
+    font-size: 52px;
+    transition:all .2s ease; 
+}
+
+.num2048{
+    background: #fff;
+    color: #d4002b;
+    font-size: 52px;
+    transition:all .2s ease; 
+	border-radius: 13px;
+}
+
+.num4096{
+    background: ##fff;
+	border-radius: 13px;
+    color: #ff0000;
+    font-size: 52px;
+    transition:all .2s ease;   
+}
+/* #button_some{ */
+	/* width: 60px; */
+	/* height: 30px; */
+/* } */
